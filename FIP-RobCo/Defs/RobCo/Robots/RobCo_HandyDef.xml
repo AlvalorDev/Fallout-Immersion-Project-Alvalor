@@ -401,16 +401,6 @@
             <baseBodySize>1.0</baseBodySize>
             <baseHealthScale>2.7</baseHealthScale>
             <mechWeightClass>Medium</mechWeightClass>
-            <lifeStageAges>
-                <li>
-                    <def>MechanoidFullyFormed</def>
-                    <minAge>0</minAge>
-                    <soundWounded>RobCo_Gutsy_Wounded</soundWounded>
-                    <soundDeath>RobCo_Gutsy_Death</soundDeath>
-                    <soundCall>RobCo_Gutsy_Call</soundCall>
-                    <soundAngry>RobCo_Gutsy_Angry</soundAngry>
-                </li>
-            </lifeStageAges>
         </race>
         <killedLeavingsPlayerHostile>
             <SignalChip>1</SignalChip>
@@ -447,18 +437,6 @@
                     </shadowData>
                 </bodyGraphicData>
             </li>
-            <li>
-                <bodyGraphicData>
-                    <texPath>RobCo/MisterGutsyBoss/MisterGutsyBoss</texPath>
-                    <shaderType>CutoutWithOverlay</shaderType>
-                    <graphicClass>Graphic_Multi</graphicClass>
-                    <drawSize>1.5</drawSize>
-                    <shadowData>
-                        <volume>(0.3, 0.4, 0.3)</volume>
-                        <offset>(0,0,-0.25)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-            </li>
         </lifeStages>
         <weaponTags>
             <li>RobCo_GutsyArray</li>
@@ -476,16 +454,6 @@
             <baseBodySize>1.0</baseBodySize>
             <baseHealthScale>1.5</baseHealthScale>
             <mechWeightClass>Light</mechWeightClass>
-            <lifeStageAges>
-                <li>
-                    <def>MechanoidFullyFormed</def>
-                    <minAge>0</minAge>
-                    <soundWounded>RobCo_Handy_Wounded</soundWounded>
-                    <soundDeath>RobCo_Handy_Death</soundDeath>
-                    <soundCall>RobCo_Handy_Call</soundCall>
-                    <soundAngry>RobCo_Handy_Angry</soundAngry>
-                </li>
-            </lifeStageAges>
         </race>
     </ThingDef>
     <PawnKindDef ParentName="LightRobotKind">
@@ -494,18 +462,6 @@
         <race>RobCo_EyeOfHydra</race>
         <allowInMechClusters>false</allowInMechClusters>
         <lifeStages>
-            <li>
-                <bodyGraphicData>
-                    <texPath>Things/Pawn/Mechanoid/WarUrchin</texPath>
-                    <shaderType>CutoutWithOverlay</shaderType>
-                    <graphicClass>Graphic_Multi</graphicClass>
-                    <drawSize>1.25</drawSize>
-                    <shadowData>
-                        <volume>(0.3, 0.4, 0.3)</volume>
-                        <offset>(0,0,-0.25)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-            </li>
             <li>
                 <bodyGraphicData>
                     <texPath>Things/Pawn/Mechanoid/WarUrchin</texPath>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<<<<<<< HEAD
     <!-- Assaultron Base -->
     <ThingDef Name="RobCo_AssaultronBase" ParentName="BaseMechanoid" Abstract="True">
         <statBases>
@@ -410,5 +409,4 @@
             <li>RobCo_LaserSheepsquatch</li>
         </weaponTags>
     </PawnKindDef>
->>>>>>> 593f6f7f591f9ab98948b03e61c7f8d569f1c42c
 </Defs>

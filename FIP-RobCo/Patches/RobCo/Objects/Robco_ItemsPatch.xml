@@ -55,9 +55,6 @@
                     <MarketValue>1000</MarketValue>
                 </statBases>
                 <!--Rottable Brain-->
-<<<<<<< HEAD
-                <!--<comps><li Class="CompProperties_Rottable"><daysToRotStart>1</daysToRotStart><rotDestroys>true</rotDestroys></li></comps>-->
-=======
                 <tickerType>Normal</tickerType>
                 <comps>
                     <li Class="CompProperties_Rottable">
@@ -65,7 +62,6 @@
                         <rotDestroys>true</rotDestroys>
                     </li>
                 </comps>
->>>>>>> 593f6f7f591f9ab98948b03e61c7f8d569f1c42c
             </ThingDef>
         </value>
     </Operation>

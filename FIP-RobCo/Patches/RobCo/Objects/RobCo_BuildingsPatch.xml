@@ -15,24 +15,14 @@
     </Operation>
     <!-- Patch letterText for CompProperties_ProximityLetter -->
     <Operation Class="PatchOperationReplace">
-<<<<<<< HEAD
-        <xpath>
-            /Defs/ThingDef[defName="AncientExostriderRemains"]/comps/li[@Class="CompProperties_ProximityLetter"]/letterText</xpath>
-=======
         <xpath>/Defs/ThingDef[defName="AncientExostriderRemains"]/comps/li[@Class="CompProperties_ProximityLetter"]/letterText</xpath>
->>>>>>> 593f6f7f591f9ab98948b03e61c7f8d569f1c42c
         <value>
             <letterText>A crashed Vertibot lies here, its hull twisted and scorched. Pre-war technology and secrets may be hidden within the wreckage.</letterText>
         </value>
     </Operation>
     <!-- Patch letterText for CompProperties_LeavingsLetter -->
     <Operation Class="PatchOperationReplace">
-<<<<<<< HEAD
-        <xpath>
-            /Defs/ThingDef[defName="AncientExostriderRemains"]/comps/li[@Class="CompProperties_LeavingsLetter"]/letterText</xpath>
-=======
         <xpath>/Defs/ThingDef[defName="AncientExostriderRemains"]/comps/li[@Class="CompProperties_LeavingsLetter"]/letterText</xpath>
->>>>>>> 593f6f7f591f9ab98948b03e61c7f8d569f1c42c
         <value>
             <letterText>The Vertibot wreckage has been disturbed, scattering remnants of pre-war tech and memories of its final flight.</letterText>
         </value>

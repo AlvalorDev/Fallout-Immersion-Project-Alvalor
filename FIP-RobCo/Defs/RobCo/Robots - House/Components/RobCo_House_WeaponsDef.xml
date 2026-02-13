@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
     <!-- ================= SECURITRON LASER WEAPON (House variant) ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_Laser_Combat</defName>
@@ -30,7 +29,6 @@
             </li>
         </tools>
     </ThingDef>
-
     <!-- ================= SECURITRON ELECTROSHOCK WEAPON ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_Electroshock</defName>
@@ -59,7 +57,6 @@
             </li>
         </tools>
     </ThingDef>
-
     <!-- ================= LIBERTY PRIME MINI-NUKE BULLET ================= -->
     <ThingDef ParentName="RobCo_BaseBullet">
         <defName>RobCo_Bullet_LibertyPrimeMiniNuke</defName>
@@ -72,7 +69,6 @@
             <stoppingPower>0</stoppingPower>
         </projectile>
     </ThingDef>
-
     <!-- ================= LIBERTY PRIME MINI-NUKE WEAPON ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_MiniNukeRocket</defName>
@@ -101,7 +97,6 @@
             </li>
         </tools>
     </ThingDef>
-
     <!-- ================= SECURITRON LASER BULLET ================= -->
     <ThingDef ParentName="RobCo_BaseBullet">
         <defName>RobCo_Bullet_SecuritronLaser</defName>
@@ -114,7 +109,6 @@
             <stoppingPower>0.8</stoppingPower>
         </projectile>
     </ThingDef>
-
     <!-- ================= SECURITRON LASER WEAPON ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_SecuritronLaser</defName>
@@ -144,12 +138,10 @@
             </li>
         </tools>
     </ThingDef>
-
     <!-- ================= SECURITRON ELECTROSHOCK BULLET ================= -->
     <ThingDef ParentName="RobCo_BaseBullet">
         <defName>RobCo_Bullet_Electroshock</defName>
         <label>electroshock bolt</label>
-  
         <projectile>
             <damageDef>EMP</damageDef>
             <damageAmountBase>8</damageAmountBase>
@@ -157,7 +149,6 @@
             <stoppingPower>0.5</stoppingPower>
         </projectile>
     </ThingDef>
-
     <!-- ================= SECURITRON ELECTROSHOCK WEAPON (Mark II) ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_SecuritronElectroshock</defName>

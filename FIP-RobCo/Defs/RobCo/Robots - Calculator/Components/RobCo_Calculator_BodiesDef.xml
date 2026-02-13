@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
     <!-- ================= SECURITRON MARK I BODY ================= -->
     <BodyDef>
         <defName>RobCo_SecuritronMkI</defName>
@@ -95,7 +94,6 @@
             </parts>
         </corePart>
     </BodyDef>
-
     <!-- ================= SECURITRON MARK II BODY ================= -->
     <BodyDef>
         <defName>RobCo_SecuritronMkII</defName>
@@ -199,7 +197,6 @@
             </parts>
         </corePart>
     </BodyDef>
-
     <!-- ================= SCURRYBOT BODY ================= -->
     <BodyDef>
         <defName>RobCo_Scurrybot</defName>

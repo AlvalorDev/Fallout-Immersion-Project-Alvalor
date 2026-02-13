@@ -73,7 +73,6 @@
             </li>
         </subSounds>
     </SoundDef>
-
     <!-- ================= SCURRYBOT SOUNDS ================= -->
     <SoundDef>
         <defName>RobCo_Scurrybot_Call</defName>

@@ -12,7 +12,6 @@
             <stoppingPower>0.9</stoppingPower>
         </projectile>
     </ThingDef>
-
     <!-- ================= LIBERATOR LASER WEAPON ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_LiberatorLaser</defName>
@@ -42,7 +41,6 @@
             </li>
         </tools>
     </ThingDef>
-
     <!-- ================= SCURRYBOT LASER BULLET ================= -->
     <ThingDef ParentName="RobCo_BaseBullet">
         <defName>RobCo_Bullet_ScurrybotLaser</defName>
@@ -55,7 +53,6 @@
             <stoppingPower>0.5</stoppingPower>
         </projectile>
     </ThingDef>
-
     <!-- ================= SCURRYBOT LASER WEAPON ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_ScurrybotLaser</defName>

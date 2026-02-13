@@ -135,7 +135,6 @@
             </parts>
         </corePart>
     </BodyDef>
-
     <!-- ================= WAR MACHINE BODY ================= -->
     <!-- Huge humanoid robot -->
     <BodyDef>

@@ -82,34 +82,32 @@
             <explosionSpawnsSingleFilth>true</explosionSpawnsSingleFilth>
         </projectile>
     </ThingDef>
-
-<DamageDef Name="RobCo_LaserAssaultronDamage">
-    <defName>RobCo_LaserAssaultronDamage</defName>
-    <label>vaporize</label>
-    <workerClass>DamageWorker_Vaporize</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been vaporized by extreme heat.</deathMessage>
-    <hediff>Burn</hediff>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <defaultDamage>200</defaultDamage>
-    <defaultStoppingPower>1.5</defaultStoppingPower>
-    <defaultArmorPenetration>1</defaultArmorPenetration>
-    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
-    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
-    <plantDamageFactor>2</plantDamageFactor>
-    <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
-    <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>
-    <armorCategory>Heat</armorCategory>
-    <minDamageToFragment>15</minDamageToFragment>
-    <makesAnimalsFlee>true</makesAnimalsFlee>
-    <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
-    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
-    <soundExplosion>Explosion_Vaporize</soundExplosion>
-    <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
-    <hasForcefulImpact>true</hasForcefulImpact>
-    <corpseDamageFactor>0.1</corpseDamageFactor>
-  </DamageDef>
-
+    <DamageDef Name="RobCo_LaserAssaultronDamage">
+        <defName>RobCo_LaserAssaultronDamage</defName>
+        <label>vaporize</label>
+        <workerClass>DamageWorker_Vaporize</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0} has been vaporized by extreme heat.</deathMessage>
+        <hediff>Burn</hediff>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+        <defaultDamage>200</defaultDamage>
+        <defaultStoppingPower>1.5</defaultStoppingPower>
+        <defaultArmorPenetration>1</defaultArmorPenetration>
+        <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+        <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
+        <plantDamageFactor>2</plantDamageFactor>
+        <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
+        <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>
+        <armorCategory>Heat</armorCategory>
+        <minDamageToFragment>15</minDamageToFragment>
+        <makesAnimalsFlee>true</makesAnimalsFlee>
+        <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+        <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+        <soundExplosion>Explosion_Vaporize</soundExplosion>
+        <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
+        <hasForcefulImpact>true</hasForcefulImpact>
+        <corpseDamageFactor>0.1</corpseDamageFactor>
+    </DamageDef>
     <!-- Sheepsquatch Laser -->
     <ThingDef ParentName="BaseBullet">
         <defName>RobCo_Bullet_LaserSheepsquatch</defName>
@@ -340,7 +338,7 @@
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_Minigun</defName>
         <label>RobCo Minigun</label>
-        <description>A rapid-fire minigun that fires low-beam laser cartridges in rapid bursts. Perfect for Supression.</description>
+        <description>A rapid-fire minigun that fires low-beam laser cartridges in rapid bursts. Perfect for Suppression.</description>
         <statBases>
             <MarketValue>1500</MarketValue>
             <Mass>6</Mass>

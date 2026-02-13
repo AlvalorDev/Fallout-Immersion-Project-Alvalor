@@ -39,7 +39,6 @@
             </li>
         </comps>
     </ThingDef>
-
 <!-- RobCo Comms Console -->
     <ThingDef ParentName="BuildingBase">
         <defName>RobCo_CommsConsole</defName>
@@ -119,7 +118,6 @@
         <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
         <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType>
     </ThingDef>
-
     <!-- RobCo Receiver -->
     <ThingDef ParentName="BuildingBase">
         <defName>RobCo_Receiver</defName>
@@ -182,7 +180,6 @@
         <tickerType>Normal</tickerType>
         <filthLeaving>Filth_MachineBits</filthLeaving>
     </ThingDef>
-
     <!-- RobCo Antenna -->
     <ThingDef ParentName="BuildingBase">
         <defName>RobCo_BurnoutMechlinkBooster</defName>
@@ -246,7 +243,6 @@
         <tickerType>Normal</tickerType>
         <filthLeaving>Filth_MachineBits</filthLeaving>
     </ThingDef>
-
     <!-- RobCo Dish -->
     <ThingDef ParentName="BuildingBase">
         <defName>RobCo_MechbandDish</defName>
@@ -310,5 +306,4 @@
         <tickerType>Normal</tickerType>
         <filthLeaving>Filth_MachineBits</filthLeaving>
     </ThingDef>
-
 </Defs>

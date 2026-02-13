@@ -12,7 +12,6 @@
             <stoppingPower>1.0</stoppingPower>
         </projectile>
     </ThingDef>
-
     <!-- ================= ROBOSCORPION LASER WEAPON ================= -->
     <ThingDef ParentName="RobCo_BaseGun">
         <defName>RobCo_RoboscorpionLaser</defName>

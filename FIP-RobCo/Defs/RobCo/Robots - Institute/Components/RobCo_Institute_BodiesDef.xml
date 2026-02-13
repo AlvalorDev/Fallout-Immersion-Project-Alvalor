@@ -135,7 +135,6 @@
             </parts>
         </corePart>
     </BodyDef>
-
     <!-- ================= LIBERTY PRIME BODY ================= -->
     <!-- Enormous humanoid robot -->
     <BodyDef>

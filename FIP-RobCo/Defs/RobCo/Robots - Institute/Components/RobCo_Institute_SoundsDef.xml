@@ -73,7 +73,6 @@
             </li>
         </subSounds>
     </SoundDef>
-
     <!-- ================= WAR MACHINE SOUNDS ================= -->
     <SoundDef>
         <defName>RobCo_WarMachine_Call</defName>
@@ -147,7 +146,6 @@
             </li>
         </subSounds>
     </SoundDef>
-
     <!-- ================= LIBERTY PRIME SOUNDS ================= -->
     <SoundDef>
         <defName>RobCo_LibertyPrime_Call</defName>

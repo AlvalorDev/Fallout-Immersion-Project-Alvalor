@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
     <!-- ================= SYNTH GEN1 BODY ================= -->
     <BodyDef>
         <defName>RobCo_SynthGen1</defName>
@@ -262,7 +261,6 @@
             </parts>
         </corePart>
     </BodyDef>
-
     <!-- ================= SYNTH GEN2 BODY ================= -->
     <BodyDef>
         <defName>RobCo_SynthGen2</defName>

@@ -98,7 +98,6 @@
             </parts>
         </corePart>
     </BodyDef>
-
     <!-- ================= THINK TANK ================= -->
     <!-- Think Tank Body - large brain tank -->
     <BodyDef>
